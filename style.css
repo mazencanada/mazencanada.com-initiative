@@ -1,0 +1,78 @@
+*{
+	text-decoration: none;
+	font-family: 'nunito sans';
+	color: black;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+body{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.pink{
+	color: #B67DFF;
+}
+/*-------------- 1- HEADER ----------------*/
+nav{
+	font-size: 18px;
+}
+ul,li,#logo{
+	display: inline-block;
+}
+ul{
+	float: right;
+}
+li{
+	padding-left: 70px;
+}
+span{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 50%;
+	background-color: gray;	
+}
+/*-------------- 2- INTRO SECTION ----------------*/
+#section-intro{
+	text-align: center;
+	padding-bottom: 100px;
+}
+/*-------------- 3- WHERE FOLLOW ------------------*/
+h1{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 55px;
+}
+h2{
+	font-size: 40px;
+}
+#img1{
+	margin-right: 20%;
+	margin-left:10% ;
+	padding-top: 30px;
+}
+#youtube-para{
+	width: 50%;
+	float: right;
+	text-align: center;
+	font-size: 18px;
+}
+#insta-para{
+	width: 50%;
+	float: left;
+	text-align: center;
+	padding-top: 150px;
+	font-size: 18px;
+}
+#img2{
+	margin-right: 10%;
+	margin-left:20%;
+	padding-top: 100px;
+}
+/*---------------- 5- FOOTER ------------------*/
+#footer{
+	font-size: 18PX;
+	padding-top: 50px;
+	text-align: center;
+}
