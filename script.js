@@ -9,7 +9,7 @@
                 let videoId=data.items[i].id.videoId;
                 let button=document.getElementsByClassName("clickme")[i];
                 document.getElementsByClassName("img")[i].src =img;
-                document.getElementsByClassName("Vtitle")[i].innerHTML=title;
+                document.getElementsByClassName("videoTitle")[i].innerHTML=title;
                 button.addEventListener("click",function(){
                   let box =document.getElementsByClassName("box")[i]
                   box.innerHTML=`<div> <iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1" allow="autoplay"  width="300px" height="200" ></iframe></div>`
