@@ -7,7 +7,7 @@
                 let img=data.items[i].snippet.thumbnails.high.url
                 let title=data.items[i].snippet.title;
                 let videoId=data.items[i].id.videoId;
-                let button=document.getElementsByClassName("clickme")[i];
+                let button=document.getElementsByClassName("playIcon")[i];
                 document.getElementsByClassName("img")[i].src =img;
                 document.getElementsByClassName("videoTitle")[i].innerHTML=title;
                 button.addEventListener("click",function(){
