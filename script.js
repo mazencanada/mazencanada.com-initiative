@@ -1,6 +1,6 @@
     async function get(){
       try{
-          const response = await fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC98Suvqo2atFD0Y6e3Bn2AA&maxResults=3&order=date&key=AIzaSyBIwzMzUzXLoxKEiH-Y7qFZI1f0Jbea4so");
+          const response = await fetch("https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UC98Suvqo2atFD0Y6e3Bn2AA&maxResults=3&order=date&key=AIzaSyCAVqkBWy9P-F_3s3ilPXY7xJZXBhJwfWY");
           const data = await response.json();
           console.log(data)
               for(let i=0;i<3;i++){
